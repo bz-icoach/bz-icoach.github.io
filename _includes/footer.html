@@ -1,0 +1,63 @@
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-5">
+          <div class="social-widget">
+            <div id="vk_groups"></div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            {% if site.fb_group_id == null %}{% else %}
+            <div class="social-widget">
+              <div id="fb-root"></div>
+              <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.10';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+              <div class="fb-page"
+                data-href="https://www.facebook.com/{{ site.fb_group_id }}"
+                data-width="240"
+                data-hide-cover="false"
+                data-small-header="false" 
+                data-adapt-container-width="true" 
+                data-show-facepile="true"></div>
+              </div>
+            {% endif %}
+        </div>
+        <div class="col-sm-4 col-md-4">
+          <p class="mail">{{ site.company.email }}</p>
+          <p class="info">
+            {% if site.company.name == null %}{% else %}
+              {{ site.company.name }}<br/>
+            {% endif %}
+            {% if site.company.info == null %}{% else %}
+              {{ site.company.info }}
+            {% endif %}
+          </p>
+          <p class="privacy"><a href="/privacy" target="_blank">Политика конфиденциальности</a></p>
+          <p class="tel">{{ site.company.phone }}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+
+
+
+{% if site.vk_group_id == null %}{% else %}
+  <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+  <!-- VK Widget -->
+  <div id="vk_community_messages"></div>
+  <script type="text/javascript">
+  VK.Widgets.CommunityMessages("vk_community_messages", {{ site.vk_group_id }}, {});
+  </script>
+
+  <!-- VK Widget -->
+  <script type="text/javascript">
+  VK.Widgets.Group("vk_groups", {mode: 1, width: "auto"}, {{ site.vk_group_id }});
+  </script>
+{% endif %}

@@ -1,0 +1,87 @@
+body.flamingo {
+  .btn, .btn-md, .btn-lg {
+    color: $white;
+    background-color: $flamingo;
+    border: 0 !important;
+    &:focus {
+      color: $white;
+      background-color: $flamingo;
+    }
+    &:hover {
+      color: $white;
+      background-color: darken($flamingo, 10%);
+    }
+    &:active {
+      color: $white;
+      background-image: none;
+      background-color: darken($flamingo, 20%);
+    }
+    &:active:hover {
+      color: $white;
+      background-color: darken($flamingo, 10%);
+    }
+  }
+  .bg_img {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(216, 100, 131, 0.9)), to(rgba(216, 100, 131, 0.9))), url(../images/template/bg.png);
+    background: linear-gradient(to top, rgba(216, 100, 131, 0.9), rgba(216, 100, 131, 0.9)), url(../images/template/bg.png);
+    background-size: cover;
+    color: #FFF;
+    .btn, .btn-md, .btn-lg{
+      color: $gray;
+      background-color: $yellow;
+      border: 0 !important;
+      &:focus {
+        color: $gray;
+        background-color: $yellow;
+      }
+      &:hover {
+        color: $gray;
+        background-color: darken($yellow, 10%);
+      }
+      &:active {
+        color: $gray;
+        background-image: none;
+        background-color: darken($yellow, 20%);
+      }
+      &:active:hover {
+        color: $gray;
+        background-color: darken($yellow, 10%);
+      }
+    }
+  }
+  .featured-list-bordered {
+    li {
+      padding-left: 65px;
+      position: relative;
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      min-height: 44px;
+    }
+    &-icon {
+      width: 44px;
+      height: 44px;
+      border: 1px solid $flamingo;
+      line-height: 44px;
+      color: $flamingo;
+      font-size: 30px;
+    }
+  }
+  .marker:before {
+    background: $flamingo;
+  }
+  .method_title *{color: $flamingo;}
+  .border{
+    border: 1px solid $flamingo;
+    &-md{
+      border: 3px solid $flamingo;
+    }
+    &-lg{
+      border: 5px solid $flamingo;
+    }
+  }
+  .b-footer, .b-footer *, .b-footer *:hover {
+    background-color: $flamingo;
+    color: $white;
+  }
+}

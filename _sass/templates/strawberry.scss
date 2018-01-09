@@ -1,0 +1,87 @@
+body.strawberry {
+  .btn, .btn-md, .btn-lg {
+    color: $white;
+    background-color: $strawberry;
+    border: 0 !important;
+    &:focus {
+      color: $white;
+      background-color: $strawberry;
+    }
+    &:hover {
+      color: $white;
+      background-color: darken($strawberry, 10%);
+    }
+    &:active {
+      color: $white;
+      background-image: none;
+      background-color: darken($strawberry, 20%);
+    }
+    &:active:hover {
+      color: $white;
+      background-color: darken($strawberry, 10%);
+    }
+  }
+  .bg_img {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(193, 0, 0, 0.9)), to(rgba(193, 0, 0, 0.9))), url(../images/template/bg.png);
+    background: linear-gradient(to top, rgba(193, 0, 0, 0.9), rgba(193, 0, 0, 0.9)), url(../images/template/bg.png);
+    background-size: cover;
+    color: #FFF;
+    .btn, .btn-md, .btn-lg {
+      color: $gray;
+      background-color: $white;
+      border: 0 !important;
+      &:focus {
+        color: $gray;
+        background-color: $white;
+      }
+      &:hover {
+        color: $gray;
+        background-color: darken($white, 10%);
+      }
+      &:active {
+        color: $gray;
+        background-image: none;
+        background-color: darken($white, 20%);
+      }
+      &:active:hover {
+        color: $gray;
+        background-color: darken($white, 10%);
+      }
+    }
+  }
+  .featured-list-bordered {
+    li {
+      padding-left: 65px;
+      position: relative;
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      min-height: 44px;
+    }
+    &-icon {
+      width: 44px;
+      height: 44px;
+      border: 1px solid $strawberry;
+      line-height: 44px;
+      color: $strawberry;
+      font-size: 30px;
+    }
+  }
+  .marker:before {
+    background: $strawberry;
+  }
+  .method_title *{color: $strawberry;}
+  .border{
+    border: 1px solid $strawberry;
+    &-md{
+      border: 3px solid $strawberry;
+    }
+    &-lg{
+      border: 5px solid $strawberry;
+    }
+  }
+  .b-footer, .b-footer *, .b-footer *:hover {
+    background-color: $strawberry;
+    color: $white;
+  }
+}

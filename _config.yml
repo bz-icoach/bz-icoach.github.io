@@ -1,0 +1,40 @@
+baseurl: ""
+permalink: /:title/
+markdown: kramdown
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
+  - gulpfile.js
+  - deploy
+  - deploy-key.enc
+  - deploy-key
+
+url: "http://lp3.icoach.io"
+title: 'Продвижение Тренеров'
+author: "Николай Воробьёв"
+description: 'продвигаю тренеров, коучей, консультантов, психологов и других экспертов'
+
+# Футер:
+company:
+  name: "ООО Реальность"
+  info: "<nobr>г. Санкт-Петербург</nobr>, <nobr>ул. Некрасова 40</nobr>"
+  phone: "+7 (499) 112-47-92"
+  skype: 
+  email: "ok@nickvorobiov.com"
+  other:
+
+event:
+  textdate:
+
+vk_group_id: 133491062
+fb_group_id: icoach.io
+yandex_metrika:
+#google_analytics: UA-89298735-2
+facebook_pixel_id: 1064201373633710
+#vk_retarget_url: 'https://vk.com/rtrg?p=VK-RTRG-154186-9FzhW'
+
+trello-list-id: 
+offer: ''
+yandex_money: 41001469914505
