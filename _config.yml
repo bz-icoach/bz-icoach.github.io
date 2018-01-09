@@ -11,7 +11,7 @@ exclude:
   - deploy-key.enc
   - deploy-key
 
-url: "http://lp3.icoach.io"
+url: "http://bz.icoach.io"
 title: 'Продвижение Тренеров'
 author: "Николай Воробьёв"
 description: 'продвигаю тренеров, коучей, консультантов, психологов и других экспертов'
