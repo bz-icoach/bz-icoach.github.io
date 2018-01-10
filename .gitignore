@@ -10,3 +10,4 @@ package.json
 package-lock.json
 index.css
 Thumbs.db
+vendor/bootstrap/docs
