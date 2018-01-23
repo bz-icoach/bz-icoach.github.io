@@ -3,8 +3,6 @@ layout: post
 title: Как перестать волноваться во время презентации
 ---
 
-# Как перестать волноваться во время презентации
-
 ### Смотри видео:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=QomgjUREs7A
