@@ -3,8 +3,6 @@ title: Для кого предназначен проект iCoach и чем м
 layout: post
 ---
 
-# Для кого предназначен проект iCoach и чем мы тут занимаемся
-
 ### Смотри видео:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=gwMBqIYx3_4
