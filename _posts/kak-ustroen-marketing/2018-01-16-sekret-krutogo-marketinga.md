@@ -3,7 +3,7 @@ layout: post
 title: Секрет крутого маркетинга
 ---
 
-# Секрет крутого маркетинга
+### Смотри видео:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=bwRoRT9zvuc
 " target="_blank"><img src="http://img.youtube.com/vi/bwRoRT9zvuc/0.jpg" 
